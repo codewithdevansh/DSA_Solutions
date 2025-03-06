@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+    
+    int a,b;
+    cout<<"Enter the range of numbers:"<<endl;
+    cin>>a>>b;
+    cout<<"Range is"<<"("<<a<<","<<b<<")"<<endl;
+    int sum = 0;
+    for(int i=a; i<=b; i++){
+        
+        sum+=i;
+    }
+    cout<<"Sum of numbers in range is: "<<sum;
+}
