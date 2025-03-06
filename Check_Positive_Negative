@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void pos_neg(int n){
+    if(n>0){
+        cout<<"Number is positive";
+    }
+    else if (n<0){
+        cout<<"Number is negative";
+    }
+    else{
+        cout<<"Zero";
+    }
+}
+
+
+int main(){
+    
+    int n;
+    cout<<"Enter the number: ";
+    cin>>n;
+    
+    pos_neg(n);
+    
+    return 0;
+}
