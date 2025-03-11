@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    
+    int n;
+    cout<<"Enter the number to be checked : ";
+    cin>>n;
+    
+    int a = n;
+    
+    int num = 0;
+    
+    while(n!=0){
+        
+        int x = n%10;
+        
+        n = n/10;
+        
+        num = num*10 + x;
+        
+    }
+    if(num == a){
+        cout<<"The number is a palindrome.";
+    }
+    else{
+        cout<<"The number is not a palindrome.";
+    }
+}
