@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void check_palindrome(string s){
+   
+   string rev = s;
+   
+   reverse(rev.begin(), rev.end());
+   
+   if(rev == s){
+       cout<<"String is palindrome";
+   }
+   else{
+       cout<<"String is not a palindrome";
+   }
+    
+}
+
+
+int main(){
+    
+   string s;
+   cout<<"Enter the string: ";
+   cin>>s;
+   check_palindrome(s);
+   
+}
