@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int c = 1;
+int n;
+
+void nums(){
+    if(c == n+1 ){
+        return;
+    }
+    cout<<c<<endl;
+    c++;
+    
+    
+    return nums();
+}
+
+int main(){
+    
+    cout<<"Enter the number upto which you want to print numbers: "<<endl;
+    cin>>n;
+    
+    nums();
+}
